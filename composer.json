@@ -1,0 +1,28 @@
+{
+    "name": "deviantintegral/phpstorm-phpunit-dataprovider",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Berry",
+            "email": "deviantintegral@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "laravel/homestead": "dev-master",
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deviantintegral\\PhpStormPhpUnitDataProvider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deviantintegral\\PhpStormPhpUnitDataProvider\\Tests\\": "src/"
+        }
+    }
+}
